@@ -1,4 +1,62 @@
-.row, 
+row, 
 .column {
     box-sizing: border-box;
+}
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+.column {
+    position: relative;
+    float: left;
+}
+
+.column + .column {
+    margin-left: 1.6%;
+}
+
+.row:after {
+    clear: both;
+}
+
+.col-4 {
+    height: 200px;
+    width: 33.3226666667%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.col-8 {
+    height: 200px;
+    width: 66.645333333%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+.col-4 {
+    height: 200px;
+    width: 33.3226666667%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+.col-4 {
+    height: 200px;
+    width: 33.3226666667%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+.col-4 {
+    height: 200px;
+    width: 33.3226666667%;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
 }
