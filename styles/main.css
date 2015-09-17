@@ -20,8 +20,6 @@
 .col-xs-6 {
     background-color: green;
 }
-
-
 .col-xs-7 {
     background-color: gold;
 }
@@ -37,4 +35,15 @@
 .col-xs-11 {
     background-color: skyblue;
 }
-
+.col-xs-12 {
+    background-color: beige;
+}
+.col-xs-13 {
+    background-color: chocolate;
+}
+.col-xs-14 {
+    background-color: purple;
+}
+.col-xs-15 {
+    background-color: crimson;
+}
