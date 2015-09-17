@@ -1,5 +1,6 @@
 .column {
     text-align: center;
+    border: 2px solid black;
 }
 .col-xs-1 {
     background-color: cyan;
@@ -10,3 +11,10 @@
 .col-xs-3 {
     background-color: brown;
 }
+.col-xs-4 {
+    background-color: blue;
+}
+.col-xs-5 {
+    background-color: magenta;
+}
+
