@@ -1,0 +1,12 @@
+.column {
+    text-align: center;
+}
+.col-xs-1 {
+    background-color: cyan;
+}
+.col-xs-2 {
+    background-color: gray;
+}
+.col-xs-3 {
+    background-color: brown;
+}
